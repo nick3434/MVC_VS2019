@@ -1,0 +1,5 @@
+﻿@{ 
+    ViewBag.Title = "Android行動網頁";
+}
+
+<h2>這是Android行動網頁 - Index.Android.cshtml</h2>

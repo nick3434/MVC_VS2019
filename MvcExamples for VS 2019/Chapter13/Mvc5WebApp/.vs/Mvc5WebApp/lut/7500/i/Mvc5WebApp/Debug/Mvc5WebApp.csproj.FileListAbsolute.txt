@@ -1,0 +1,6 @@
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\b\Mvc5WebApp\bin\Mvc5WebApp.dll.config
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\b\Mvc5WebApp\bin\Mvc5WebApp.dll
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\i\Mvc5WebApp\Debug\Mvc5WebApp.csprojAssemblyReference.cache
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\i\Mvc5WebApp\Debug\Mvc5WebApp.csproj.CoreCompileInputs.cache
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\i\Mvc5WebApp\Debug\Mvc5WebApp.csproj.CopyComplete
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\i\Mvc5WebApp\Debug\Mvc5WebApp.dll

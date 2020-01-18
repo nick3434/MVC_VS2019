@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=980" />
+
+    <link href="../Content/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-1.10.2.min.js"></script>
+    <script src="../Scripts/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>header</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <img src="../Assets/Images/Tiger640.jpeg" />
+            <p style="background-color:aquamarine">
+                天地玄黃 宇宙洪荒 日月盈昃 辰宿列張 寒來暑往 秋收冬藏 閏餘成歲 律呂調陽 雲騰致雨 露結為霜 金生麗水 玉出崑岡 劍號巨闕 珠稱夜光 果珍李柰
+                菜重芥薑 海鹹河淡 麟潛羽翔 龍獅火帝 鳥官人皇 始制文字 乃服衣裳 推位讓國 有虞陶唐 弔民伐罪 周發商湯 坐朝問道 垂拱平章 愛育黎首 臣伏戎羌
+                遐邇壹體 率賓歸王 鳴鳳在竹 白駒食場 化被草木 賴及萬方 蓋此身髮 四大五常 恭惟鞠養 豈敢毀傷 女慕貞烈 男效才良 知過必改 得能莫忘 罔談彼短
+                靡恃己長 信使可復 器欲難量 莫悲絲染 詩讚羔羊 景行惟賢 克念作聖 德建名立 形端表正 空谷傳聲 虛堂習聽 禍因惡積 福緣善慶 尺璧非寶 寸陰是競
+            </p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>footer</h1>
+        </div>
+    </div>
+
+    <script>
+        $(function () {
+            $("p").ready(function () {
+                setTimeout(showViewportWidth, 100);
+            });
+        });
+
+        function showViewportWidth() {
+            alert('width: ' + window.innerWidth + ", " + 'Height: ' + window.innerHeight);
+        }
+
+    </script>
+</body>
+</html>

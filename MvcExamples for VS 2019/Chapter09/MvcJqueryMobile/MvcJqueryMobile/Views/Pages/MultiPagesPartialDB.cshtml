@@ -1,0 +1,35 @@
+﻿@model IEnumerable<MvcJqueryMobile.Models.Hero>
+
+@{
+    Layout = "~/Views/Shared/_LayoutRaw.Mobile.cshtml";
+    ViewBag.Title = "Multi Pages DB";
+}
+
+<div data-role="page" id="mainpage">
+    <div data-role="header">
+        <h1>LOL英雄人物列表</h1>
+    </div>
+    <div role="main" class="ui-content">
+        <img src="http://eune.leagueoflegends.com/sites/default/files/styles/scale_xlarge/public/upload/2017.10.10.articlebanner.champskinsale_en.jpg" alt="LOL" />
+        <ul data-role="listview" data-inset="true">
+            @foreach (var m in Model)
+            {
+                <li><a href="#@m.PageId"> @m.Header</a></li>
+            }
+        </ul>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h3>LOL英雄人物</h3>
+    </div>
+</div>
+
+@foreach (var m in Model)
+{
+    @Html.Partial("HeroPartial", m);
+}
+
+
+@section topCSS{
+
+    <link href="~/Assets/css/Hero.css" rel="stylesheet" />
+}

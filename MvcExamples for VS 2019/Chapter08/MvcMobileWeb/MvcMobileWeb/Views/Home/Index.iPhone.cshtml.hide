@@ -1,0 +1,5 @@
+﻿@{ 
+    ViewBag.Title = "iPhone行動網頁";
+}
+
+<h2>這是iPhone行動網頁 - Index.iPhone.cshtml</h2>

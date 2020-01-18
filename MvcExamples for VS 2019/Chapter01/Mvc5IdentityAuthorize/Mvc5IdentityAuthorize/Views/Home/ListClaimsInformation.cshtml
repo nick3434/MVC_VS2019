@@ -1,0 +1,36 @@
+﻿@using System.Security.Claims
+
+@model ClaimsPrincipal
+
+
+@{
+    ViewBag.Title = "ListClaimsInformation";
+
+    ClaimsPrincipal principal = Model as ClaimsPrincipal;
+}
+
+<h2>ListClaimsInformation</h2>
+
+<ul>
+    @foreach (Claim claim in principal.Claims)
+    {
+        <li>Claim Type: @claim.Type , Claim Value : @claim.Value</li>
+    }
+</ul>
+
+<br /><br />
+
+<ul>
+    @foreach (var identity in principal.Identities)
+    {
+        <li>@identity.Name, @identity.NameClaimType, @identity.AuthenticationType, @identity.Claims</li>
+    }
+</ul>
+
+<br /><br />
+
+<ul>
+    <li>@User.Identity.Name</li>
+    <li>@User.Identity.IsAuthenticated</li>
+    <li>@User.Identity.AuthenticationType</li>
+</ul>

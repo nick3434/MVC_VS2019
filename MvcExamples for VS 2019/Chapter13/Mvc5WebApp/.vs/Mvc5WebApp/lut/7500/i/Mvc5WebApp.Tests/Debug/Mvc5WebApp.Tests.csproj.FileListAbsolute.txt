@@ -1,0 +1,12 @@
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\b\Mvc5WebApp.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\b\Mvc5WebApp.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\b\Mvc5WebApp.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\b\Mvc5WebApp.Tests\bin\Debug\zh-Hant\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\b\Mvc5WebApp.Tests\bin\Debug\zh-Hant\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\b\Mvc5WebApp.Tests\bin\Debug\zh-Hant\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\b\Mvc5WebApp.Tests\bin\Debug\Mvc5WebApp.Tests.dll.config
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\b\Mvc5WebApp.Tests\bin\Debug\Mvc5WebApp.Tests.dll
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\i\Mvc5WebApp.Tests\Debug\Mvc5WebApp.Tests.csprojAssemblyReference.cache
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\i\Mvc5WebApp.Tests\Debug\Mvc5WebApp.Tests.csproj.CoreCompileInputs.cache
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\i\Mvc5WebApp.Tests\Debug\Mvc5WebApp.Tests.csproj.CopyComplete
+C:\MvcExamples範例完美演繹3\Mvc5WebApp\.vs\Mvc5WebApp\lut\0\i\Mvc5WebApp.Tests\Debug\Mvc5WebApp.Tests.dll

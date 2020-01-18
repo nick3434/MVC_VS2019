@@ -1,0 +1,74 @@
+﻿@model MvcJqueryMobile.Models.Hero
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Hero</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PageId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PageId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Header)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Header)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Footer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Footer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Introduction)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Introduction)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImageUrl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageAlt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImageAlt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VideoUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VideoUrl)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

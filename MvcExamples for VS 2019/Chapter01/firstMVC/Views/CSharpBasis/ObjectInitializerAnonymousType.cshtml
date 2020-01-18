@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Object Initializer with AnonymousType";
+
+    //以Reflection讀取屬性值
+    var name = Model.GetType().GetProperty("Name").GetValue(Model);
+    var country = Model.GetType().GetProperty("Country").GetValue(Model);
+}
+
+<div class="jumbotron alert-success">
+    <h2>Object Initializer with AnonymousType</h2>
+</div>
+
+<ul>
+    <li>姓名 : @name</li>
+    <li>國藉 : @country</li>
+
+</ul>

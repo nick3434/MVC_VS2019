@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
+    <meta charset="utf-8" />
+    <title>Page Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+    <!--使用CDN函式庫-->
+    <!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
+
+    <!--使用Server本身的函式庫-->
+    <link href="../Content/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-1.10.2.min.js"></script>
+    <script src="../Scripts/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>這是Header</h1>
+        </div>
+        <div role="main" class="ui-content">
+            這是Content內容...
+        </div>
+        <div data-role="footer">
+            <h1>這是Footer</h1>
+        </div>
+    </div>
+
+    <!--<script>
+        $(function () {
+            $("p").ready(function () {
+                setTimeout(showViewportWidth, 100);
+            });
+        });
+
+        function showViewportWidth() {
+            alert('width: ' + window.innerWidth + ", " + 'Height: ' + window.innerHeight);
+        }
+    </script>-->
+</body>
+</html>
