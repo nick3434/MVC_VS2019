@@ -1,6 +1,0 @@
-1.MvcExamples for VS 2019與VS 2017之範例程式碼基本上完全相同。而最主要差異點是MVC專案參考的NuGet套件版本不同，
-  以及VS 2019 Target的.NET Framework版本為4.7.2，而VS 2019 Target的則為4.6.1。
-2.至於讀者該使用哪VS 2019與VS 2017之範例程式，取決於你Visual Studio是2019或2017版本。
-  但即便你Visual Studio 2019也照樣可以開啟MvcExamples for VS 2017之範例程式碼。
-3.但是如果你的是VS 2017，開啟MvcExamples for VS 2019範例專案，可能會還遇到.NET Framework版本問題，
-  故不建議讀者這麼做。
